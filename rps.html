@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock, Paper, Scissors</h1>
+        <div class="options">
+            <div class="option" id="rock" onclick="playGame('rock')">
+                <img src="https://texasgardenmaterials.com/wp-content/uploads/2018/08/bull-rock-landscaping-rocks-gravel-houston-tx-77099.jpeg" alt="Rock">
+            </div>
+            <div class="option" id="paper" onclick="playGame('paper')">
+                <img src="https://i.pinimg.com/736x/0b/41/25/0b41253a4041ddb57004d633e4979430.jpg" alt="Paper">
+            </div>
+            <div class="option" id="scissors" onclick="playGame('scissors')">
+                <img src="https://live.staticflickr.com/2625/3718712829_dfd71c79bd_b.jpg" alt="Scissors">
+            </div>
+        </div>
+        <button id="submit" onclick="compareChoices()">Submit</button>
+        <p id="answer"></p>
+    </div>
+    <script src="rps.js"></script>
+</body>
+</html>
+
+
+
